@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("./noaa-0ETSZYPjvDo-unsplash.jpg");
+  background-position: center center;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#mainBlock > article {
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  height: 100vh;
+  align-items: flex-start;
+}
+
+input {
+  width: 100%;
+  margin: 30px 10px;
+  padding: 12px;
+  border-bottom: 4px solid #673ab799;
+  background: transparent;
+  /* box-shadow: inset 1px 1px 5px -1px #673ab7; */
+  color: #fff;
+}
+
+::placeholder {
+  color: #673ab7;
+  font-size: 16px;
+}
+:focus {
+  outline: none;
+}
+
+.inputBlock {
+  flex-basis: 25%;
+  padding: 6px 14px;
+  height: 100vh;
+  border-right: 2px solid #4b0082c4;
+  box-shadow: 5px 4px 5px -3px #673ab785;
+}
+.descriptionBlock {
+  flex-basis: 75%;
+  padding: 6px 14px;
+}
+
+#weatherApp header {
+  background: transparent;
+  width: 100%;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+}
+#weatherApp h1 {
+  font-size: 96px;
+}
+#weatherApp h2 {
+  font-size: 30px;
+}
+
+#weatherApp main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#weatherApp main p {
+  background: #673ab740;
+  padding: 9px 20px;
+  border-bottom: 5px solid #9c27b03b;
+  margin: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#time {
+  background: #673ab726;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  letter-spacing: 7px;
+  justify-content: center;
+  font-weight: bold;
+  color: #e91e63;
+  text-shadow: 1px 2px 1px indianred;
+  line-height: 77px;
+}
