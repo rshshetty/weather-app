@@ -42,7 +42,7 @@ async function GetWeather(cityName) {
 
 setInterval(() => {
   let date = new Date().toLocaleTimeString();
-  let AmorPm = date > 12 ? "PM" : "AM";
+
   document.getElementById("time").innerHTML = `${date}`;
 }, 1000);
 
